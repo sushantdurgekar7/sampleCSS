@@ -1,0 +1,191 @@
+/* Source Sans Pro font */
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+
+/* Adding font-family and font-weight to chart */
+body {
+  font-family: "Source Sans Pro", sans-serif !important;
+  font-weight: 500 !important;
+}
+
+/* Hiding footer logo */
+.bk-embed .bk-embed-powered-by-ts-ribbon {
+  display: none !important;
+}
+
+/* Hiding Header */
+/* .bk-pinboard-data-viz .bk-pinboard-viz-header {
+    display: none !important;
+} */
+
+/* Hiding title only*/
+/* .bk-pinboard-data-viz .bk-title {
+    display: none !important;
+} */
+
+/* removing extra chart padding */
+.bk-pinboard-data-viz {
+  padding: 0 !important;
+}
+/* removing chart span-tag of hovering */
+.highcharts-axis-title {
+  display: none !important;
+}
+/* hiding filter panel in header */
+/* .bk-filter-panel {
+    display: none !important;
+} */
+
+/* For action-menu*/
+/* .bk-pinboard-card .bk-pb-card-action-menu {
+    display: block !important;
+} */
+
+.bk-pinboard-card .bk-pb-card-action-menu .bk-action-button-container {
+  visibility: visible !important;
+  opacity: 1 !important;
+  transform: translateX(4px) !important;
+}
+
+.bk-title-description .bk-description {
+  display: none !important;
+}
+
+/********************************LIVEBOARD FILTERS***************************/
+
+/* Hiding entire header section in liveboard*/
+.bk-pinboard-ribbon {
+  display: none !important;
+}
+
+/********************************LIVEBOARD KPI***************************/
+
+/*KPI Title Cuztomizations*/
+.bk-title-description .bk-title-section .bk-title {
+  /* font-size: 24px !important; */
+  /* font-weight:600 !important; */
+  /* line-height:32px !important; */
+  color: #1a1f22 !important;
+}
+.tile-container .tile-size-xs .bk-title {
+  font-size: 13px !important;
+  font-weight: 300 !important;
+  line-height: 16px !important;
+  color: #4c4c4c !important;
+}
+
+.tile-size-xs .bk-title-description .bk-title-section {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.kpi-module__hero {
+  font-size: 32px !important;
+  font-weight: 300 !important;
+  line-height: 32px !important;
+  color: #0279ff !important;
+}
+.kpi-module__heroDataContainer {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+}
+
+@media (min-width: 1014px) and (max-width: 1279px) {
+  .tile-size-xs .kpi-module__hero {
+    font-size: 32px !important;
+    font-weight: 300 !important;
+    line-height: 32px !important;
+    color: #0279ff !important;
+  }
+}
+
+@media (max-width: 1013px) {
+  .tile-size-xs .kpi-module__hero {
+    font-size: 32px !important;
+    font-weight: 300 !important;
+    line-height: 32px !important;
+    color: #0279ff !important;
+  }
+}
+
+.bk-pinboard-data-viz .bk-pinboard-viz-header {
+  -webkit-flex-basis: 40px !important;
+  flex-shrink: 40px !important;
+}
+
+.bk-pinboard-data-viz {
+  padding: 5px !important;
+}
+
+.tile-container .tile-size-xs {
+  width: 24.25% !important;
+}
+
+.bk-pinboard-data-viz {
+  box-shadow: none !important;
+}
+
+.tile-size-xs .bk-pinboard-data-viz {
+  border-left: 1px solid #efefef;
+}
+
+.tile-size-xs .bk-pb-card-action-menu {
+  display: none !important;
+}
+
+.chartSection
+  .vizWrapper
+  .bk-axis-label-container
+  .bk-axis-label-control:hover
+  .bk-icon-arrow-down {
+  opacity: 0 !important;
+}
+
+body .popover-module__positionable.popover-module__in {
+  display: block !important;
+}
+
+.bk-sharable-item-content-container {
+  overflow-y: hidden !important;
+}
+
+/* V2 CSS */
+
+.pinboard-header-module__embedPinboardHeader {
+  display: none !important;
+}
+
+.bk-embed-powered-by-ts-ribbon .bk-powered-footer {
+  display: none !important;
+}
+
+.answer-content-module__compactVizContainer
+  .answer-content-module__answerVizContainer {
+  padding: 5px !important;
+  box-shadow: none !important;
+}
+
+.answer-content-header-module__compactContainer {
+  -webkit-flex-basis: 40px !important;
+  flex-shrink: 40px !important;
+}
+
+.answer-title-module__titleText {
+  font-size: 13px !important;
+  font-weight: 300 !important;
+  line-height: 16px !important;
+  color: #4c4c4c !important;
+}
+.answer-title-module__titleText:hover {
+  font-size: 13px !important;
+  font-weight: 300 !important;
+  line-height: 16px !important;
+  color: #4c4c4c !important;
+}
+
+.pinboard-content-module__tile {
+  box-shadow: none !important;
+}
+.pinboard-content-module__tileContent {
+  align-items: center !important;
+}
